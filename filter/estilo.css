@@ -1,0 +1,39 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+.container {
+    filter: contrast(30);
+    background: #fff;
+}
+
+.caja {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background: red;
+    margin: 40px;
+    border-radius: 50%;
+    animation: traslador 1.6s alternate infinite;
+    filter: blur(20px);
+}
+
+.caja:first-child {
+    animation: trasladar 2s alternate infinite
+}
+
+@keyframes trasladar {
+    0% {
+        transform: translate(0);
+    }
+
+    100% {
+        transform: translate(160px);
+    }
+}
+
+
+.container-img {
+    filter: drop-shadow(10px 5px 5px rgb(255, 247, 2));
+}

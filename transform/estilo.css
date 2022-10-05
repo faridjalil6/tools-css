@@ -1,0 +1,30 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+.container {
+    background: #86f;
+    padding: 20px 5px;
+}
+
+.caja {
+    background: #025;
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+    display: flex;
+    color: #fff;
+    transition: transform 1s;
+    transform: skew(10deg);
+}
+
+.caja:hover {
+   /* transform: scalex(1.8) translate(50px);*/
+
+}
+
+b {
+    margin: auto;
+    transform: skew(-10deg);
+}

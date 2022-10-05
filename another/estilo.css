@@ -1,0 +1,32 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    scroll-behavior: smooth;
+}
+
+.valenciaga {
+    
+    padding: 20px;
+    background: #59f;
+    font-size:25px;
+    direction: rtl;
+    letter-spacing: 3px;
+}
+
+.gucci {
+    padding: 20px;
+    background: #59f;
+    font-size: 25px;
+    direction: ltr;
+    letter-spacing: 5px;
+}
+
+.lorem {
+    font-size: 20px;
+}
+
+#content {
+    font-size: 20px;
+    background: red;
+    user-select: none;
+}

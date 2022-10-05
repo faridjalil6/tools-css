@@ -1,0 +1,41 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+.container {
+    padding: 20px 5px;
+    background: #86f;
+}
+
+.caja {
+    background: #025;
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+    animation-name: desplazarse;
+    animation-duration: 3s;
+    position: relative;
+    animation-iteration-count: infinite; /*infinite, numeros*/
+    animation-direction: alternate; /*alternate, reverse, normal*/
+    animation-fill-mode: both; /*both, forwards*/
+    animation-delay: 1s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes desplazarse {
+    0% {
+        position: relative;
+        left: 0;
+        background: #025;
+    }
+
+    50% {
+        background: red;
+    }
+
+    100% {
+        left: 80%;
+        background: green;
+    }
+}
